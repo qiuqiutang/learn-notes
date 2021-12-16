@@ -30,7 +30,7 @@ git config --global --list
 	- git mv [file] [文件夹名称]               移动文件到文件夹中  
 	- git mv [file] [文件夹名称]/[newfile]     移动到文件夹中并重命名 
 
-5. git show [id]                              
+5. git show [id]                             查看具体某提交id的详情                             
     git log --pretty=oneline [file]返回的id, 输出作者、提交时间、变更的文件
 
 
