@@ -6,10 +6,10 @@ git --version
 2. 用户名  
 git config --global user.name "用户名"
 
-3. 邮箱
+3. 邮箱  
 git config --global user.email "邮箱地址"  github 注册的邮箱
 
-4. 查看配置的用户名和邮箱
+4. 查看配置的用户名和邮箱  
 git config --global --list
 
 
