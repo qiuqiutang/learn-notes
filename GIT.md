@@ -1,3 +1,19 @@
+## GIT版本查看和配置用户名、邮箱
+
+1. 查看版本  
+git --version
+
+2. 用户名  
+git config --global user.name "用户名"
+
+3. 邮箱
+git config --global user.email "邮箱地址"  github 注册的邮箱
+
+4. 查看配置的用户名和邮箱
+git config --global --list
+
+
+
 ## GIT常用指令
 
 1. git status 查看当前项目状态  
