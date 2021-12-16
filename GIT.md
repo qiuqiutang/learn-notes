@@ -22,7 +22,11 @@ git config --global --list
 2. git log 查看提交记录  
 	- git log --author="作者名称" 查看作者名称的提交记录，作者名称是包含匹配  
 	- git log --author="作者名称1|作者名称2" 查看作者名称1或者作者名称2的提交记录  
-3. 
+3. git rm [file] 删除某个文件  
+
+4. git mv [file] [newfile]
+
+
 
 
 
