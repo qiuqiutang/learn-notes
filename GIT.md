@@ -13,4 +13,6 @@ git commit -m 'new project'
 git remote add origin 仓库地址
 
 5. git 推送到远程仓库  
-git push -u origin master
+git push -u origin master  
+*输入用户名和密码，密码是在github设置中心生成的personal access tokens*
+
