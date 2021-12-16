@@ -33,6 +33,8 @@ git config --global --list
 5. git show [id]                             查看具体某提交id的详情                             
     git log --pretty=oneline [file]返回的id, 输出作者、提交时间、变更的文件
 
+6. git diff          比较文件在暂存区和工作区的差异
+
 
 
 
