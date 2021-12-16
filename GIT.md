@@ -19,16 +19,19 @@ git config --global --list
 1. git status 查看当前项目状态  
 	- 红色：表示本地改动了，需要添加到暂存区来。
 	- 绿色：表示已添加到暂存区。（执行了git add .后就变成了绿色）  
+
 2. git log 查看提交记录  
-	- git log --author="作者名称" 查看作者名称的提交记录，作者名称是包含匹配  
-	- git log --author="作者名称1|作者名称2" 查看作者名称1或者作者名称2的提交记录  
+	- git log --author="作者名称"              查看作者名称的提交记录，作者名称是包含匹配  
+	- git log --author="作者名称1|作者名称2"    查看作者名称1或者作者名称2的提交记录  
+	- git log --pretty=oneline [file]         查看文件变化,输出提交的id
 3. git rm [file] 删除某个文件  
 
-4. git mv [file] [newfile] 重命名  
-	- git mv [file] [文件夹名称]   移动文件到文件夹中  
-	- git mv [file] [文件夹名称]/[newfile]  移动到文件夹中并重命名 
+4. git mv [file] [newfile]                    重命名  
+	- git mv [file] [文件夹名称]               移动文件到文件夹中  
+	- git mv [file] [文件夹名称]/[newfile]     移动到文件夹中并重命名 
 
-
+5. git show [id]                              
+    git log --pretty=oneline [file]返回的id, 输出作者、提交时间、变更的文件
 
 
 
