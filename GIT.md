@@ -35,7 +35,9 @@ git config --global --list
 
 6. git diff          比较文件在暂存区和工作区的差异  
 
-7. git checkout -- 文件名
+7. git checkout -- [file]   拉取暂存区文件，并将其替换成工作区文件  
+
+8. git reset HEAD [file]    对于已添加到暂存区的文件进行撤销追踪
 
 
 
