@@ -24,8 +24,8 @@ git config --global --list
 	- git log --author="作者名称1|作者名称2" 查看作者名称1或者作者名称2的提交记录  
 3. git rm [file] 删除某个文件  
 
-4. git mv [file] [newfile]
-
+4. git mv [file] [newfile] 修改文件名  
+	- git mv [file] [文件夹名称]   移动文件到文件夹中  
 
 
 
