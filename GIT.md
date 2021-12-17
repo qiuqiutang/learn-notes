@@ -43,9 +43,9 @@ git config --global --list
 	- git reset --hard [id]                  (回退到指定版本，id是通过git log 输出的版本id)
 
 9. git tag                                   (查看标签)
-	- git tag [标签名称]                     （创建一个标签）
-
-
+	- git tag [标签名称]                     （给最近的提交创建一个标签）
+	- git tag [标签名称] [id]                 (给某个提交创建一个标签)
+    - git tag -d [标签名称]                  （删除某个标签）
 
 
 ## GIT创建新项目
