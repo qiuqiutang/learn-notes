@@ -35,11 +35,12 @@ git config --global --list
 
 6. git diff          比较文件在暂存区和工作区的差异  
 
-7. git checkout -- [file]   拉取暂存区文件，并将其替换成工作区文件  
+7. git checkout -- [file]            拉取暂存区文件，并将其替换成工作区文件  
+	- git checkout [id] -- [file]    拉取暂存区里某个版本中的某个文件 
 
 8. git reset HEAD [file]        对于已添加到暂存区的文件进行撤销追踪  
-	- git reset --hard HEAD^^^  ^的数量表示撤销的版本提交的次数  
-	- git reset --hard [id]     id是通过git log 输出的版本id,
+	- git reset --hard HEAD^^^  ^的数量表示回退的版本提交的次数  
+	- git reset --hard [id]     回退到指定版本，id是通过git log 输出的版本id
 
 
 
