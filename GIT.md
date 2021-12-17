@@ -38,6 +38,7 @@ git config --global --list
 7. git checkout -- [file]                    (拉取暂存区文件，并将其替换成工作区文件)  
 	- git checkout [id] -- [file]            (拉取暂存区里某个版本中的某个文件) 
 	- git checkout [分支名称]                （切换到某个分支）
+	- git checkout -b [分支名称]             （创建分支，并且直接切换到创建的分支）
 
 8. git reset HEAD [file]                     (对于已添加到暂存区的文件进行撤销追踪)  
 	- git reset --hard HEAD^^^               (^的数量表示回退的版本提交的次数)  
@@ -50,6 +51,7 @@ git config --global --list
     - git push origin v1.0                   (把标签推送到远程仓库)
 10. git branch                               (查看分支)
 	- git branch [分支名称]                  （创建分支）
+	- git branch -d [分支名称]               （删除分支，注：不能删除当前分支）
 
 
 ## GIT创建新项目
