@@ -37,7 +37,9 @@ git config --global --list
 
 7. git checkout -- [file]   拉取暂存区文件，并将其替换成工作区文件  
 
-8. git reset HEAD [file]    对于已添加到暂存区的文件进行撤销追踪
+8. git reset HEAD [file]        对于已添加到暂存区的文件进行撤销追踪  
+	- git reset --hard HEAD^^^  ^的数量表示撤销的版本提交的次数  
+	- git reset --hard [id]     id是通过git log 输出的版本id,
 
 
 
