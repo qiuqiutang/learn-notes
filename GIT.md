@@ -49,10 +49,16 @@ git config --global --list
 	- git tag [标签名称] [id]                 (给某个提交创建一个标签)
     - git tag -d [标签名称]                  （删除某个标签）
     - git push origin v1.0                   (把标签推送到远程仓库)
+    - git push --delete origin [标签名称]    （删除远程仓库的标签）
+
 10. git branch                               (查看分支)
 	- git branch [分支名称]                  （创建分支）
 	- git branch -d [分支名称]               （删除分支，注：不能删除当前分支）
 	- git branch -D [分支名称]               （强制删除分支，注：不能删除当前分支）
+	- git push origin HEAD -u               （将新建的分支推送到远程仓库）
+	- git push origin --delete [分支名]       (删除远程仓库的分支)
+11. git push
+	- git push origin master  
 
 
 ## GIT创建新项目
