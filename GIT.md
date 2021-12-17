@@ -50,7 +50,7 @@ git config --global --list
 1. git 初始化  
 git init
 
-2. git 添加  
+2. git 添加到暂存区  
 git add .
 
 3. git 提交到仓库  
@@ -74,7 +74,7 @@ git add .
 git commit -m '操作事项'
 
 3. git 推送到远程仓库  
-git push
+git push origin master
 
 
 
