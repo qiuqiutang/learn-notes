@@ -46,6 +46,7 @@ git config --global --list
 	- git tag [标签名称]                     （给最近的提交创建一个标签）
 	- git tag [标签名称] [id]                 (给某个提交创建一个标签)
     - git tag -d [标签名称]                  （删除某个标签）
+    - git push origin v1.0                   (把标签推送到远程仓库)
 
 
 ## GIT创建新项目
