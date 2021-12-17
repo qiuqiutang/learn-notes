@@ -18,7 +18,7 @@ git config --global --list
 
 1. git status                                 (查看当前项目状态)  
 	- 红色：表示本地改动了，需要添加到暂存区来。
-	- 绿色：表示已添加到暂存区。（执行了git add .后就变成了绿色）  
+	- 绿色：表示已添加到暂存区。执行了git add .后就变成了绿色
 
 2. git log                                    (查看提交记录)  
 	- git log --author="作者名称"              (查看作者名称的提交记录，作者名称是包含匹配)  
@@ -62,5 +62,19 @@ git remote add origin 仓库地址
 5. git 推送到远程仓库  
 git push -u origin master  
 *输入用户名和密码，密码是在github设置中心生成的personal access tokens*
+
+
+
+## GIT修改提交
+
+1. git 添加  
+git add .
+
+2. git 提交到仓库  
+git commit -m '操作事项'
+
+3. git 推送到远程仓库  
+git push
+
 
 
