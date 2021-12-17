@@ -42,6 +42,9 @@ git config --global --list
 	- git reset --hard HEAD^^^               (^的数量表示回退的版本提交的次数)  
 	- git reset --hard [id]                  (回退到指定版本，id是通过git log 输出的版本id)
 
+9. git tag                                   (查看标签)
+	- git tag [标签名称]                     （创建一个标签）
+
 
 
 
@@ -67,7 +70,7 @@ git push -u origin master
 
 ## GIT修改提交
 
-1. git 添加  
+1. git 添加到暂存区   
 git add .
 
 2. git 提交到仓库  
@@ -75,6 +78,11 @@ git commit -m '操作事项'
 
 3. git 推送到远程仓库  
 git push origin master
+
+
+
+
+
 
 
 
