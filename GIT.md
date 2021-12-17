@@ -52,6 +52,7 @@ git config --global --list
 10. git branch                               (查看分支)
 	- git branch [分支名称]                  （创建分支）
 	- git branch -d [分支名称]               （删除分支，注：不能删除当前分支）
+	- git branch -D [分支名称]               （强制删除分支，注：不能删除当前分支）
 
 
 ## GIT创建新项目
