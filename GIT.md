@@ -121,6 +121,17 @@ git push origin master
 
 
 
+## GIT 拓展
+
+- Octotree - GitHub code tree  树结构方式查看github项目
+
+- Enhanced GitHub  查看单个文件的大小
+
+- GitZip for github  下载选中的文件夹或者文件
+
+
+
+
 
 
 
