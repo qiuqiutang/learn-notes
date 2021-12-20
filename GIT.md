@@ -82,9 +82,10 @@ git config --global --list
 	> git commit -m "提交备注"  
 	> git push   
 
-13. git fetch                                 (拉取远程仓库的分支)          
-
-14. git pull                                  ()
+13. git fetch 与 git push
+    - git fetch                              (拉取远程仓库的分支, 本地仓库的代码并没有更改)          
+	- git pull                               (拉取远程仓库的代码，并与本地分支进行合并)  
+		git pull = git fetch + git merge
 
 ## GIT创建新项目
 
