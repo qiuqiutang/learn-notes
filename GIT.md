@@ -59,6 +59,12 @@ git config --global --list
 	- git push origin --delete [分支名]       (删除远程仓库的分支)
 11. git push
 	- git push origin master  
+	- git push origin [标签名称]              （创建远程仓库的标签）
+	- git push origin --delete [标签名称]     （删除远程仓库的标签）
+	- git push origin HEAD -u                （创建远程仓库的分支）
+	- git push origin -- delete [分支名称]    （删除远程仓库的分支）
+12. git merge                                 (合并分支)
+	- git merge --abort                       (忽略其它分支的内容，保留原分支)
 
 
 ## GIT创建新项目
