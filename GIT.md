@@ -24,14 +24,16 @@ git config --global --list
 	- git log --author="作者名称"              (查看作者名称的提交记录，作者名称是包含匹配)  
 	- git log --author="作者名称1|作者名称2"    (查看作者名称1或者作者名称2的提交记录)  
 	- git log --pretty=oneline [file]         (查看文件变化,输出提交的id)
+	- git log --oneline                       (查看简易的日志)
+	- git log --oneline --graph               (查看版本路线)
+
 3. git rm [file]                              (删除某个文件)  
 
 4. git mv [file] [newfile]                    (重命名)
 	- git mv [file] [文件夹名称]               (移动文件到文件夹中)  
 	- git mv [file] [文件夹名称]/[newfile]     (移动到文件夹中并重命名) 
 
-5. git show [id]                             (查看具体某提交id的详情)                             
-    git log --pretty=oneline [file]返回的id, 输出作者、提交时间、变更的文件
+5. git show [id]                             (查看具体某提交id的详情)          
 
 6. git diff                                  (比较文件在暂存区和工作区的差异)  
 
