@@ -57,14 +57,17 @@ git config --global --list
 	- git branch [分支名称]                  （创建分支）
 	- git branch -d [分支名称]               （删除分支，注：不能删除当前分支）
 	- git branch -D [分支名称]               （强制删除分支，注：不能删除当前分支）
+	- git branch -av                         (查看所有的分支信息)
 	- git push origin HEAD -u               （将新建的分支推送到远程仓库）
 	- git push origin --delete [分支名]       (删除远程仓库的分支)
+
 11. git push
 	- git push origin [分支名称]  
 	- git push origin [标签名称]              （创建远程仓库的标签）
 	- git push origin --delete [标签名称]     （删除远程仓库的标签）
 	- git push origin HEAD -u                （创建远程仓库的分支）
 	- git push origin -- delete [分支名称]    （删除远程仓库的分支）
+
 12. git merge [分支名称]                       (合并分支)  
 	** 出现冲突后的解决方法： **
 	- 忽略其它分支  
@@ -79,6 +82,7 @@ git config --global --list
 	> git commit -m "提交备注"  
 	> git push   
 
+13. git fetch 
 
 ## GIT创建新项目
 
