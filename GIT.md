@@ -66,12 +66,12 @@ git config --global --list
 	- git push origin [标签名称]              （创建远程仓库的标签）
 	- git push origin --delete [标签名称]     （删除远程仓库的标签）
 	- git push origin HEAD -u                （创建远程仓库的分支）
-	- git push origin -- delete [分支名称]    （删除远程仓库的分支）
+	- git push origin --delete [分支名称]     （删除远程仓库的分支）
 
 12. git merge [分支名称]                       (合并分支)  
 	** 出现冲突后的解决方法： **
 	- 忽略其它分支  
-	git merge --abort                       (忽略其它分支的内容，保留当前分支)
+	git merge --abort                         (忽略其它分支的内容，保留当前分支)
 	- 手动修改冲突内容  
 	> git add .  
 	> git commit 进入可编辑的界面  
@@ -82,7 +82,9 @@ git config --global --list
 	> git commit -m "提交备注"  
 	> git push   
 
-13. git fetch 
+13. git fetch                                 (拉取远程仓库的分支)          
+
+14. git pull                                  ()
 
 ## GIT创建新项目
 
