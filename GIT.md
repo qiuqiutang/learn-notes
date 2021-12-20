@@ -66,7 +66,7 @@ git config --global --list
 12. git merge [分支名称]                       (合并分支)  
 	** 出现冲突后的解决方法： **
 	- 忽略其它分支  
-	git merge --abort                       (忽略其它分支的内容，保留原分支)
+	git merge --abort                       (忽略其它分支的内容，保留当前分支)
 	- 手动修改冲突内容  
 	> git add .  
 	> git commit 进入可编辑的界面  
