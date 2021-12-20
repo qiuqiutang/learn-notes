@@ -68,14 +68,14 @@ git config --global --list
 	- 忽略其它分支  
 	git merge --abort                       (忽略其它分支的内容，保留原分支)
 	- 手动修改冲突内容  
-	> git add .
-	> git commit 进入可编辑的界面
-	> 输入 i 进入编辑状态，输入修改的备注
-	> 输入 esc 退出编辑状态
-	> 输入 :wq 保存并退出 
-	> git add .
-	> git commit -m "提交备注"
-	> git push 
+	> git add .  
+	> git commit 进入可编辑的界面  
+	> 输入 i 进入编辑状态，输入修改的备注  
+	> 输入 esc 退出编辑状态  
+	> 输入 :wq 保存并退出   
+	> git add .  
+	> git commit -m "提交备注"  
+	> git push   
 
 
 ## GIT创建新项目
