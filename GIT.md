@@ -122,20 +122,20 @@ git push origin master
 
 ## GIT将当前修改的内容提交到新的分支上
 
-1. 在当前的分支上的修改暂存起来
+1. 在当前的分支上的修改暂存起来  
 git stash
 
-2. 暂存后，在本地新建分支（new_branch为新分支的名字）
+2. 暂存后，在本地新建分支（new_branch为新分支的名字） 
 git checkout -b new_branch 
 
-3. 将暂存的修改放到新建分支中
+3. 将暂存的修改放到新建分支中 
 git stash pop
 
-4. 使用命令进行常规的add、commit 步骤
+4. 使用命令进行常规的add、commit 步骤 
 git add .
 git commit -m '操作事项'
 
-5. 将提交的内容push到远程服务器（在远程也同步新建分支new_branch）
+5. 将提交的内容push到远程服务器（在远程也同步新建分支new_branch） 
 git push origin new_branch:new_branch
 
 
