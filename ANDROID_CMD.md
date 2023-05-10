@@ -14,3 +14,15 @@ keytool -list -v -keystore 目标文件路径 -storepass keystore密码
 
 gradle assembleRelease 
 
+
+
+## 有用的命令
+
+### 查看所有的依赖 
+
+.\gradlew :app:dependencies > deps.txt
+
+
+### 查看当前模拟器上显示的页面对应的Activity 
+
+adb shell "dumpsys activity top | grep ACTIVITY | tail -n 1"
