@@ -142,6 +142,15 @@
 
 5. 将提交的内容push到远程服务器（在远程也同步新建分支new_branch）  
    git push origin new_branch:new_branch
+   
+## GIT 取消对应文件或文件夹的跟踪
+
+- 当对应的文件或文件夹已经被git跟踪,此时再加入.gitignore后是无效的
+	git rm --cached [文件名称 ]       删除[文件名称 ]的跟踪，并保留在本地。
+	
+    git rm -r --cached [文件夹名称]    删除[文件夹名称]目录，并保留在本地。
+	
+    git rm --f [文件名称 ]             删除[文件名称 ]的跟踪，并且删除本地文件。
 
 ## GIT 拓展
 
